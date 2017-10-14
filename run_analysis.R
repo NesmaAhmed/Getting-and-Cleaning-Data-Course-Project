@@ -1,7 +1,7 @@
 
 
 
-run_analsis<-function(){
+run_analysis<-function(){
   ##q1 Merges the training and the test sets to create one data set.
   ## read all the datasets
 sub_Train  <- data.table(read.table("F:/data science specialist/course3/getdata%2Fprojectfiles%2FUCI HAR Dataset/UCI HAR Dataset/train/subject_train.txt"))     # load the subject train data
