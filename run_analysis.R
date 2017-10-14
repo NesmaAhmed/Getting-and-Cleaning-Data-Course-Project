@@ -1,4 +1,5 @@
 
+library(data.table)
 run_analysis<-function(){
   ##q1 Merges the training and the test sets to create one data set.
   ## read all the datasets
