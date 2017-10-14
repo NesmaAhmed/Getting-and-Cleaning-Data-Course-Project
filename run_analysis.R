@@ -58,6 +58,7 @@ feature_name<- gsub("std", "Std", feature_name)
 feature_name<- gsub("Freq", "Frequency", feature_name)
 feature_name<- gsub("Mag", "Magnitude", feature_name)
 feature_name <- gsub("-","_",feature_name)
+feature_name <- gsub("\\(\\)","",feature_name) 
 feature_name_x<-feature_name
 feature_name<- append(c("Subject","Activity_ID","Activity_Name"),feature_name)
 
